@@ -1,0 +1,11 @@
+N = int(input())
+pessoa = [int(n)for n in input().split(' ')]
+
+posicao = 0
+
+for i in range(N):
+    if pessoa[posicao]>pessoa[i]:
+      
+        posicao = i
+
+print(posicao + 1)
